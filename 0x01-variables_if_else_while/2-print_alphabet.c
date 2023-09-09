@@ -5,7 +5,7 @@
 * Return: 0 (On Success)
 */
 int main() {
-char c = 'a'
+  char c = 'a';
   while (c <= 'z'{
 putchar(c);
  c++;
