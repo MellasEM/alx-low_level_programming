@@ -1,7 +1,6 @@
 #include <stdio.h>
 		
 #include "main.h"
-			
 /**
  * main - prints the number of the program
  * @argc: number of argv array
