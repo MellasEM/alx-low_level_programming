@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+#include "main.h"
+/**
+ * main - prints the name of the program
+ * @n: isn
+ * Return: Always 0 (Success)
+ */
+int _abs(int n)
+{
+return (0);
+}
