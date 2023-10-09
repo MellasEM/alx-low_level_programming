@@ -13,7 +13,7 @@ void *i;
 
 i = malloc(b);
 
-if ( i == NULL)
+if (i == NULL)
 exit(89);
 return (i);
 }
