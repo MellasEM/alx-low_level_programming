@@ -7,7 +7,7 @@
 * @ptr: pointer to the memory previously allocated
 * @old_size: size, in bytes, of the allocated space
 * @new_size: size, in bytes of the new memory block
-* Return: ... 
+* Return: npte, Null
 */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -27,7 +27,7 @@ return (NULL);
 return (nptr);
 }
 else
-}
+{
 if (new_size == 0)
 {
 free(ptr);
