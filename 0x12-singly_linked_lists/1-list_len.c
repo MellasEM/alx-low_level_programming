@@ -10,7 +10,7 @@
  * Return: number od elements
  */
 
-ize_t list_len(const list_t *h)
+size_t list_len(const list_t *h)
 {
 size_t elemnts_number = 0;
 
@@ -19,5 +19,5 @@ while (h)
 h = h->next;
 elemnts_number++;
 }
-return (count);
+ return (elemnts_number);
 }
