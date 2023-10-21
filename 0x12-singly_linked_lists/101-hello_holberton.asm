@@ -1,13 +1,13 @@
 section .data
-	hello db 'Hello, Holberton', 0xA, 0x00
+	hello db 'Hello, Holberton', 10
 
 section .text
 	global main
 	extern printf
 
 main:
-	push rbp
-	mov rdi, hello
+	mov edi, hello
+	mov eax, 0
 	call printf
-	pop rbp
+	mov eax, 0
 	ret
