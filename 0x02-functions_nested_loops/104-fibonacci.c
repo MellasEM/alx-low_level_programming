@@ -22,5 +22,7 @@ int main(void)
 		n2 = n3;
 		n++;
 	}
+	printf("\n");
+
 	return (0);
 }
