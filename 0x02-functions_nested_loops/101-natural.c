@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* multi - function to computes and prints the sum of all
+* main - function to computes and prints the sum of all
 * the multiples of 3 or 5 below 1024
 * Return: 0
 */
 
 
-int multi(void)
+int main(void)
 {
 int sum = 0;
 int n = 0;
