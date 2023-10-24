@@ -10,6 +10,7 @@ int main(void)
 	int n2 = 2;
 	int n3 = 0;
 	int sum = 2;
+	int temp;
 
 	while (n3 <= 4000000)
 	{
@@ -18,7 +19,6 @@ int main(void)
 				  sum += n3;
 			  }
 
-		int temp;
 		n3 = n1 + n2;
 		n1 = n2;
 		temp = n3;
