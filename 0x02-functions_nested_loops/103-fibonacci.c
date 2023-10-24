@@ -15,9 +15,9 @@ int main(void)
 	while (n3 <= 4000000)
 	{
 		if (n3 % 2 == 0)
-			  {
-				  sum += n3;
-			  }
+		{
+			sum += n3;
+		}
 
 		n3 = n1 + n2;
 		n1 = n2;
@@ -26,5 +26,5 @@ int main(void)
 	}
 
 	printf("%d\n", sum);
-	return 0;
+	return (0);
 }
