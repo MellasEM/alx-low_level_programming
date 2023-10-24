@@ -16,14 +16,14 @@ while (n <= 1024)
 if (n % 5 == 0)
 {
 sum += n;
-n++
+n++;
 }
 else if (n % 3 == 0)
 {
 sum += n;
-n++
+n++;
 }
 }
-printff("%d\n", sum)
+printf("%d\n", sum);
 return (0);
 }
