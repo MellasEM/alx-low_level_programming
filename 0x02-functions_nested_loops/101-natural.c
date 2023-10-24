@@ -15,12 +15,12 @@ while (n <= 1024)
 {
 if (n % 5 == 0)
 {
-sum += n;
+sum *= n;
 n++;
 }
 else if (n % 3 == 0)
 {
-sum += n;
+sum *= n;
 n++;
 }
 }
