@@ -4,7 +4,7 @@
 
 /**
  * insert_nodeint_at_index - function that inserts a new node
- * @head: Pointer 
+ * @head: Pointer
  * @idx: The index
  * @n: The daata
  * Return: the address of the new node, or NULL if it failed
@@ -35,14 +35,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		c = c->next;
 	}
 
-	 if (c == NULL)
-	 {
-		 free(node);
-		 return (NULL);
-	 }
+	if (c == NULL)
+	{
+		free(node);
+		return (NULL);
+	}
 
-	 node->next = c->next;
-	 c->next = node;
+	node->next = c->next;
+	c->next = node;
 
-	 return (node);
+	return (node);
 }
