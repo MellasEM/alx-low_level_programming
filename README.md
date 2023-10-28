@@ -9,4 +9,4 @@ This repository is related to the ALX Software Engineering program.
 ### [5-printf.c](./0x00-hello_world/5-printf.c): A C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
 ### [6-size.c](./0x00-hello_world/6-size.c): A C program that prints the size of various types on the computer it is compiled and run on.
 ### [100-intel](./0x00-hello_world/100-intel): A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
-### [ 101-quote.c](./0x00-hello_world/101-quote.c): AC program that prints exactly ***and that piece of art is useful" - Dora Korpar, 2015-10-19***, followed by a new line, to the standard error.
+### [ 101-quote.c](./0x00-hello_world/101-quote.c): A C program that prints exactly ***and that piece of art is useful" - Dora Korpar, 2015-10-19***, followed by a new line, to the standard error.
