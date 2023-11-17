@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * int binary_to_uint - A function that converts a binary to an unsigned int
  * @b: Pointer to a string of 0 and 1 chars
@@ -7,7 +9,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsinged int bin;
+	unsigned int bin;
 
 	bin = 0;
 
@@ -22,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		bin = (bin << 1) + (*b - '0');
-		b++
+		b++;
 	}
 
 	return (bin);
