@@ -8,6 +8,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsinged int bin;
+
 	bin = 0;
 
 	if (b == NULL)
@@ -24,5 +25,5 @@ unsigned int binary_to_uint(const char *b)
 		b++
 	}
 
-	return bin;
+	return (bin);
 }
