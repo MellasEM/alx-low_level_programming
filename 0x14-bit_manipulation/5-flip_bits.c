@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * flip_bits - function that returns the number of bits you would need
@@ -11,17 +11,17 @@ include "main.h"
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int n;
+	unsigned long int num;
 	unsigned long int b;
 
-	n = 0;
+	num = 0;
 	b = n ^ m;
 
 	while (b)
 	{
-		n += b & 1;
+		num += b & 1;
 		b >>= 1;
 	}
 
-	return (n);
+	return (num);
 }
