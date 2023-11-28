@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * ssize_t - function that reads a text file
+ * read_textfile - function that reads a text file
  * and prints it to the POSIX standard output
  *
  * @filename: file name
- * @size_t: letters
+ * @letters: letters
  * Return:  actual number of letters or 0 if the file can not be opened, read
  * or filename is NULLor if write fails
  */
